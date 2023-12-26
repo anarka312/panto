@@ -1,18 +1,15 @@
 .nav {
-  display: flex;  
+  display: grid;  
+  grid-template-columns: 2fr 8fr 2fr;
+  gap: 20px;
 }
 
-.logo {
+.nav__logo {
+  align-self: center;
+  font-weight: 700px;
+  font-size: 28px;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+
 }
-.nav-list {
-}
-.nav-list__item {
-}
-.nav-list__link {
-}
-.cart {
-}
-.cart__img {
-}
-.cart__count {
-}
+
