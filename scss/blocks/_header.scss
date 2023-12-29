@@ -21,6 +21,7 @@
 .header__content {
   text-align: center;
 }
+
 .header__title {
   margin-bottom: 14px;
   font-weight: 700;
@@ -33,16 +34,12 @@
 .header__content p {
   margin: 0 auto;
   max-width: 606px;
+  opacity: 0.8;
   font-size: 24px;
   line-height: 160%;
 }
 
 .header__search {
-  margin-top: 45px;
-}
-.search-form {
-}
-.search-form__input {
-}
-.search-form__btn {
+  margin: 45px auto 0;
+  
 }
