@@ -55,6 +55,8 @@
   position: absolute;
   left: calc(114 * 100% / 1410);
   top: calc(754 * 100% / 1075);
+
+  transform: translate(-16px, -16px);
 }
 .header-dot__item {
   position: absolute;
