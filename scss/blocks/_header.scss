@@ -58,11 +58,13 @@
 
   transform: translate(-16px, -16px);
 }
+
 .header-dot__item {
   position: absolute;
   left: calc(810 * 100% / 1440);
   top: calc(787 * 100% / 1084);
 }
+
 .header-dot__wall {
   position: absolute;
   right: calc(46 * 100% / 1440);
