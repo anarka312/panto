@@ -15,6 +15,10 @@ document.addEventListener('click', closeHints);
 
 function closeHints() {
     for (let hint of infoHints) {
-        hint.classList.add('.none');
+        hint.classList.add('none');
     }
+}
+
+for (let hint of infoHints) {
+    hint.addEventListener('click', (e) => e.stopPropagation());
 }
