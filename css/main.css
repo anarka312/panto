@@ -468,4 +468,24 @@ body {
 }
 .tab__controls-btn--active {
   background-color: #fff;
+}
+
+.card {
+  width: 260px;
+}
+
+.card-photo {
+  height: 240px;
+  background-color: #fafafa;
+  border-radius: 20px 20px 0 0;
+  text-align: center;
+}
+
+.card__img {
+  margin-top: -50px;
+}
+
+.card-desc {
+  background-color: #fff;
+  border-radius: 0 0 20px 20px;
 }/*# sourceMappingURL=main.css.map */
