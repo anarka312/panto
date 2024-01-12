@@ -1,6 +1,6 @@
 .card {
     position: relative;
-    width: 260px;
+    width: 268px;
     font-family: var(--font-cards);
 }
 
@@ -39,14 +39,14 @@
     position: relative;
     z-index: 3;
     color: var(--text-muted);
-    font-size: 17px;
+    font-size: 16px;
 
 
 }
 .card__title {
     color: var(--text-card-dark-blue);
     font-size: 21px;
-    font-weight: 500;
+    font-weight: 600;
 }
 .card__rating {
     display: flex;
