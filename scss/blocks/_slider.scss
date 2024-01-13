@@ -15,18 +15,16 @@
 }
 .slider__btn--prev {
     position: absolute;
+    z-index: 1;
     left: 0;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 .slider__btn--next {
     position: absolute;
+    z-index: 1;
     right: 0;
     top: 50%;
     transform: translate(50%, -50%);
 }
 
-.swiper {
-    width: 600px;
-    height: 300px;
-  }
