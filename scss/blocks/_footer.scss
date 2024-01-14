@@ -1,0 +1,25 @@
+.footer {
+  background-color: var(--footer-bg);
+  padding: 110px 0 56px;
+  color: var(--footer-text-color);
+}
+
+.footer__grid {
+  margin-bottom: 118px;
+  display: grid;
+  grid-template-columns: 3fr 1fr 2fr 2fr 2fr;
+  gap: 20px;
+}
+
+.footer__nav--services {
+  grid-column-start: 3;
+}
+.foooter__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__copyright {
+}
+.footer__links {
+}
