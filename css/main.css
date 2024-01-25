@@ -199,6 +199,14 @@ body {
   top: 75.7380073801%;
 }
 
+.logo, a.logo {
+  font-weight: 700px;
+  font-size: 28px;
+  letter-spacing: 0.28px;
+  text-transform: capitalize;
+  color: #fff;
+}
+
 .nav {
   display: grid;
   grid-template-columns: 2fr 8fr 2fr;
@@ -207,10 +215,6 @@ body {
 
 .nav__logo {
   align-self: center;
-  font-weight: 700px;
-  font-size: 28px;
-  letter-spacing: 0.28px;
-  text-transform: capitalize;
 }
 
 .nav-list {
@@ -598,6 +602,9 @@ body {
 .footer {
   background-color: var(--footer-bg);
   padding: 110px 0 56px;
+  color: var(--footer-text-color);
+}
+.footer a {
   color: var(--footer-text-color);
 }
 
