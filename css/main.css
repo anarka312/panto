@@ -204,7 +204,7 @@ body {
   font-size: 28px;
   letter-spacing: 0.28px;
   text-transform: capitalize;
-  color: #fff;
+  color: #fff !important;
 }
 
 .nav {
@@ -613,6 +613,16 @@ body {
   display: grid;
   grid-template-columns: 3fr 1fr 2fr 2fr 2fr;
   gap: 20px;
+}
+
+.footer__desc {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.footer__logo {
+  margin-bottom: 29px;
 }
 
 .footer__nav--services {
